@@ -1,0 +1,3 @@
+sudo nginx -c /home/hepengxi/gitee/hepengxi.top/nginx.conf
+sudo nginx -s stop -c /home/hepengxi/gitee/hepengxi.top/nginx.conf
+sudo nginx -s reload
