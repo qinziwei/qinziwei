@@ -23,4 +23,4 @@ $(".so .iconfont").click(function() {
 $(".so .form-control").click(function() {
 	$(this).val('');
 });
-console.log("%c GeeYo %c Copyright \xa9 %s", 'font-family: "微软雅黑", Helvetica, Arial, sans-serif;font-size:64px;color:#00bbee;-webkit-text-fill-color:#00bbee;-webkit-text-stroke: 1px #00bbee;', "font-size:12px;color:#999999;", (new Date).getFullYear());
+console.log("%c GeeYo %c qinziwie \xa9 %s", 'font-family: "微软雅黑", Helvetica, Arial, sans-serif;font-size:64px;color:#00bbee;-webkit-text-fill-color:#00bbee;-webkit-text-stroke: 1px #00bbee;', "font-size:12px;color:#999999;", (new Date).getFullYear());
