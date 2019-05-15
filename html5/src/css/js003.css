@@ -1,0 +1,22 @@
+.container {
+  /* 容器布局 */
+  width: 800px;
+  margin: 0px auto;
+}
+
+.yx {
+  display: flex;
+  justify-content: space-between;
+}
+
+.yx > div {
+  display: flex;
+  align-items: center;
+}
+
+.yx img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
