@@ -2,7 +2,8 @@ body {
   padding: 0;
   margin: 0;
   background: #fff;
-  background: url(../html/style/css/img/bg1.jpg) no-repeat;
+  background: url(../html/style/css/img/bg1.jpg);
+  background-size: cover;
 }
 
 body a:hover,
