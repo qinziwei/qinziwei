@@ -27,14 +27,28 @@
       </div>
     </div>
   </div>
-  
+
   <footer class="text-center">
     <p class="border-top">Copyright © QinZinwei. qinziwei.vip<br>
       <p style="cursor: pointer;" onclick="window.open('http://www.beian.gov.cn','_self');">湘ICP备19009296号</p>
     </p>
   </footer>
+  <!-- 自适应与手机 -->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 
+  <!-- 检测手机访问 -->
   <script>
+    //平台、设备和操作系统
+    var system = { win: false, mac: false, xll: false };
+    //检测平台
+    var p = navigator.platform;
+    system.win = p.indexOf("Win") == 0;
+    system.mac = p.indexOf("Mac") == 0;
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+    //跳转语句，如果是手机访问就自动跳转到wap.baidu.com页面
+    if (!system.win && !system.mac && !system.xll) {
+      alert('手机访问');
+    }
     addEventListener("load", function () {
       setTimeout(hideURLbar, 0);
     }, false);
