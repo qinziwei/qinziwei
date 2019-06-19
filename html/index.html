@@ -10,6 +10,7 @@
   <!-- 自适应与手机 -->
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/index.css">
 
@@ -19,13 +20,15 @@
       <div class="banner-top1">
         <div class="container">
           <div class="banner-text text-center">
-            <h1><a href="html/index.html" class="logo text-wh text-uppercase font-weight-light">覃子维</a></h1>
+            <h1><a href="html/index.html" class="logo text-wh text-uppercase font-weight-light btn animated bounce">覃子维</a></h1>
             <p class=" text-li mt-3">
               <p>爱音乐、爱运动、爱生活</p>
               <p>html,java的开发，'会找影视资源'的好人</p>
               <embed src="html/style/css/img/1.mp3" style="width: 0px;height: 0px;" autoplay>
             </p>
-            <a href="html/index.html" class="btn button-style mt-5">Read More</a>
+            <a href="html/index.html" class="btn button-style mt-5 animated bounce infinite" 
+            onmouseover="this.classList.remove('infinite')"
+            onmouseout="this.classList.add('infinite')">Read More</a>
           </div>
         </div>
       </div>
