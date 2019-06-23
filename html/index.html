@@ -1,65 +1,171 @@
 ﻿<!DOCTYPE html>
-<html lang="zxx">
+<html lang="cn">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="Creative Coming Soon Template">
+  <meta name="author" content="Hitesh Jariwala">
+  <meta name="keywords" content="">
   <title>属于我的天空</title>
-  <link rel="shortcut icon" href="html/style/css/img/logo.1.png" type="image/png">
+  <link rel="shortcut icon" href="img/log.jpg" type="img/jpg">
   <meta name="keywords" content="覃子维">
   <meta name="description" content="这里是覃子维的个人网站，记录并分享着他想记录与分享的一切，可是他有点懒，更新的并不是那么频繁！">
-  <!-- 自适应与手机 -->
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/animate.min.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+</head>
 
 <body>
-  <div class="mybody">
+  <div class="preloader-container">
+    <div class="content-container">
+      <span class="spinner-section-far"></span>
+      <h6 class="preloader-text">
+        加载中</h6>
+    </div>
+  </div>
+  <img class="img-logo" alt="logo" src="img/logo_white.png" />
+  <div class="open">
+    <div class="cls">
+    </div>
     <div>
-      <div class="banner-top1">
-        <div class="container">
-          <div class="banner-text text-center">
-            <h1><a href="html/index.html" class="logo text-wh text-uppercase font-weight-light btn animated bounce">覃子维</a></h1>
-            <p class=" text-li mt-3">
-              <p>爱音乐、爱运动、爱生活</p>
-              <p>html,java的开发，'会找影视资源'的好人</p>
-              <embed src="html/style/css/img/1.mp3" style="width: 0px;height: 0px;" autoplay>
+      <ul class="sub-menu-t">
+        <li class="active"><a class="menu-link" data-section="home" data-nav-title="home" data-section-pos="0"
+            data-section-posy="0">首页<i class="fa fa-fw fa-home"></i>
+          </a></li>
+        <li><a class="menu-link" data-section="about" data-nav-title="about" data-section-pos="0"
+            data-section-posy="-100">关于<i class="fa fa-fw fa-star-o"></i></a></li>
+        <li><a class="menu-link" data-section="works" data-nav-title="works" data-section-pos="-100"
+            data-section-posy="-100">简介<i class="fa fa-fw fa-bell-o"></i></a></li>
+        <li><a class="menu-link" data-section="contact" data-nav-title="contact" data-section-pos="-100"
+            data-section-posy="0">我们<i class="fa fa-fw fa-list"></i></a></li>
+      </ul>
+    </div>
+    <div class="cls">
+    </div>
+  </div>
+  <div class="page-container">
+    <div class="section-container">
+      <section class="home-section">
+        <div class="bg-container"></div>
+        <div class="content col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-rlt no-pad centering-y">
+          <div class="col-md-12 col-sm-12">
+            <h1>覃子维</h1>
+            <div class="sub-title" id="wordsrotator">
+              <h4>creative agency</h4>
+            </div>
+            <p class="desc">
+              我是程序猿，我靠写代码吃饭。有人说我是修电脑的，也有人说我是码农。 其实没人知道，程序猿不好当。这是我的事业，并不是我的全世界。
             </p>
-            <a href="html/index.html" class="btn button-style mt-5 animated bounce infinite" 
-            onmouseover="this.classList.remove('infinite')"
-            onmouseout="this.classList.add('infinite')">Read More</a>
+            <div id="countdown" class="countdown-container">
+            </div>
           </div>
         </div>
-      </div>
+        <footer class="text-center">
+          <p class="border-top">Copyright © QinZinwei. qinziwei.vip<br>
+            <p style="cursor: pointer;" onclick="window.open('http://www.beian.gov.cn','_self');">湘ICP备19009296号</p>
+          </p>
+        </footer>
+      </section>
+      <section class="about-section">
+        <div class="bg-container-static"></div>
+        <div class="content col-md-8 col-md-offset-2 col-sm-12 col-sm-rlt col-xs-12 no-pad centering-y">
+          <div class="col-md-12 col-sm-12">
+            <div class="about" style="margin-bottom: 40px;">
+              <p><span style="font-size: 18pt;">关于网站</span></p>
+              <p>我叫叫覃子维，这也是本站域名的来由</p>
+              <p>html，Java的开发，"会找影视资源"的好人</p>
+              <p>喜欢音乐、爱生活、爱折腾、爱行走</p>
+              <p>很多人都问3323是什么？这个数字其实我自己也不清楚，只记得这个是很重要的东西！！</p>
+              <p>&nbsp;</p>
+              <p><span style="font-size: 18pt;">关于本站</span></p>
+              <p><span style="line-height: 1.5;">本网站定位为个人网站</span></p>
+              <p>在这里总结学习知识，记录平日所思</p>
+              <p><span style="line-height: 1.5;">徜徉于缤纷错乱的互联网世界，</span><span style="line-height: 1.5;">且歌，且行，且冥…</span>
+              </p>
+              <p>&nbsp;</p>
+              <p><span style="font-size: 18pt;">关于简历</span></p>
+              <p><span style="line-height: 1.5;">本站主的个人简历</span></p>
+              <p>若是对我满意，请记得联系我！！</p>
+              <p>「<a href="Tpl/zlx.doc" download="简历(覃子维).doc">点击下载</a>」</p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works-section">
+        <div class="bg-container-static"></div>
+        <div class="content col-md-8 col-md-offset-2 col-sm-12 col-sm-rlt col-xs-12 no-pad centering-y">
+          <div class="carousel-col">
+            <div class="service col-md-4">
+              <div class="icon-container">
+                <i class="fa fa-html5"></i>
+              </div>
+              <div class="text-container">
+                <h4>html5</h4>
+                <p class="mrg-top-xs">HTML5 是定义 HTML 标准的最新的版本。 该术语通过两个不同的概念来表现：
+                  它是一个新版本的HTML语言，具有新的元素，属性和行为，
+                  它有更大的技术集，允许构建更多样化和更强大的网站和应用程序。这个集合有时称为HTML5和它的朋友们，不过大多数时候仅缩写为一个词 HTML5。</p>
+              </div>
+            </div>
+            <div class="service col-md-4">
+              <div class="icon-container">
+                <i class="fa fa-css3"></i>
+              </div>
+              <div class="text-container">
+                <h4>css</h4>
+                <p class="mrg-top-xs">CSS 指层叠样式表（Cascading Style Sheets）。 在我们的 CSS 教程中，您将学习如何使用 CSS 同时控制整个站点的样式和布局。 通过与
+                  XHTML 结合，CSS 可以帮助我们实行表现与结构分离的开发模式。 通过使用 CSS 来提升工作效率！</p>
+              </div>
+            </div>
+            <div class="service col-md-4">
+              <div class="icon-container">
+                <i class="fa fa-github"></i>
+              </div>
+              <div class="text-container">
+                <h4>github</h4>
+                <p class="mrg-top-xs">GitHub 是一个面向开源及私有软件项目的托管平台，因为只支持 Git 作为唯一的版本库格式进行托管，故名 GitHub。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section">
+        <div class="bg-container-static"></div>
+        <div class="content col-md-10 col-md-offset-1 col-sm-12 col-xs-12 no-pad centering-y col-sm-rlt">
+          <div class="col-md-4 col-sm-12">
+            <div class="details">
+              <h5>office</h5>
+              <p>Pure Pixels <br />India</p>
+            </div>
+            <div class="details">
+              <h5>电话</h5>
+              <p>+123 4567 890<br />+123 4567 891</p>
+            </div>
+            <div class="details">
+              <h5>邮箱</h5>
+              <p>2412438344@qq.com<br />210237640@qq.com</p>
+            </div>
+            <div class="details">
+              <h5>链接</h5>
+              <div class="social-media-container">
+                <a class="social-media" href="#"><i class="fa fa-facebook"></i></a>
+                <a class="social-media" href="#"><i class="fa fa-twitter"></i></a>
+                <a class="social-media" href="#"><i class="fa fa-behance"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-container col-md-8 col-sm-12 col-xs-12">
+
+          </div>
+        </div>
+      </section>
     </div>
-
-    <footer class="text-center">
-      <p class="border-top">Copyright © QinZinwei. qinziwei.vip<br>
-        <p style="cursor: pointer;" onclick="window.open('http://www.beian.gov.cn','_self');">湘ICP备19009296号</p>
-      </p>
-    </footer>
   </div>
-
-
-
-  <!-- 检测手机访问 -->
-  <script>
-    //平台、设备和操作系统
-    var system = { win: false, mac: false, xll: false };
-    //检测平台
-    var p = navigator.platform;
-    system.win = p.indexOf("Win") == 0;
-    system.mac = p.indexOf("Mac") == 0;
-    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-    addEventListener("load", function () {
-      setTimeout(hideURLbar, 0);
-    }, false);
-
-    function hideURLbar() {
-      window.scrollTo(0, 1);
-    }
-  </script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/plugins.min.js"></script>
+  <script type="text/javascript" src="js/main_slideshow.js"></script>
 </body>
 
 </html>
